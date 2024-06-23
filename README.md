@@ -27,11 +27,11 @@ Jarvis is a sophisticated AI assistant that can perform a variety of tasks, from
 
 📋 Usage
 Sending a WhatsApp Message
-# Say "Hey Jarvis, send a WhatsApp message"
-# Jarvis will ask for the recipient and message, then send it.
+ Say "Hey Jarvis, send a WhatsApp message"
+Jarvis will ask for the recipient and message, then send it.
 Controlling IoT Devices
-# Say "Hey Jarvis, turn on the bedroom light"
-# Jarvis will send a request to the IoT device to turn on the light.
+ Say "Hey Jarvis, turn on the bedroom light"
+ Jarvis will send a request to the IoT device to turn on the light.
 
 🛠️ Installation
 Clone the repository: git clone https://github.com/your-username/jarvis.git

@@ -1,0 +1,1012 @@
+{
+  "intents": [
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "thanks a lot",
+        "thank you so much",
+        "thanks for your help"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hii",
+        "hey",
+        "wake up",
+        "jarvis",
+        "hai",
+        "whats up jarvis",
+        "whatsup ",
+        "lets start",
+        "are you ready"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what can i call you",
+        "what is your name",
+        "what should i call you",
+        "what can i call you"
+      ],
+      "responses": [
+        "You can call me Jarvis",
+        "My name is Jarvis",
+        "I am Jarvis",
+        "Jarvis"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "how are you",
+        "how you",
+        "are you fine?",
+        "are you good",
+        "are you feeling better",
+        "are you ok"
+      ],
+      "responses": [
+        "Fine.",
+        "Perfect.",
+        "Cool.",
+        "Like You.",
+        "Are you Fine? I'm Fine."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "your name",
+        "what is your name",
+        "who are you",
+        "what are you"
+      ],
+      "responses": [
+        "Jarvis",
+        "I Am Jarvis.",
+        "An A.I Assistant.",
+        "My Name is Jarvis.",
+        "Great Assistant",
+        "This is Jarvis your voice assistant"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "time",
+        "time",
+        "samay",
+        "what's the time",
+        "time now"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "what is date",
+        "date",
+        "tareek",
+        "what's the date"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": [
+        "what is day",
+        "day",
+        "din",
+        "what's the day",
+        "today"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "google search",
+        "google",
+        "search",
+        "search in google"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "youtube",
+        "youtube search",
+        "search youtube",
+        "search on youtube",
+        "search in youtube"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "weather",
+        "weather report",
+        "weather forecast",
+        "what is the weather",
+        "what is the weather report",
+        "what is the weather forecast",
+        "atmosphere"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news",
+        "news report",
+        "news update",
+        "what is the news",
+        "what is the news report",
+        "what is the news update",
+        "what are the daily updates"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "joke",
+        "tell me some jokes",
+        "crack a joke",
+        "crack some jokes",
+        "make me laugh",
+        "refresh my mood by playing jokes"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "play some music",
+        "play a song",
+        "play music",
+        "play a music",
+        "play some songs",
+        "play songs",
+        "play a songs",
+        "play some song",
+        "play song",
+        "play a song",
+        "play some musics",
+        "play musics",
+        "play a musics",
+        "play some songs",
+        "play songs",
+        "play a songs",
+        "play some song",
+        "play song",
+        "play a song",
+        "gaana",
+        "start the music",
+        "lets play some songs"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "calculations",
+      "patterns": [
+        "do some math calculations",
+        "do some scientific calculations",
+        "maths time",
+        "maths",
+        "solve maths problems",
+        "science calculations problems",
+        "work with calc",
+        "find the answer of maths",
+        "find the value",
+        "fun play with maths",
+        "do some maths",
+        "solve this equation"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "open",
+      "patterns": [
+        "open app",
+        "open application",
+        "launch app",
+        "launch application"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "introduce your self",
+        "self introduce",
+        "self introduction",
+        "introduce yourself",
+        "introduce yourself to me",
+        "tell me about yourself",
+        "tell me about you",
+        "tell me about your self",
+        "tell me about you"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "alarm",
+      "patterns": [
+        "alarm",
+        "keep alarm",
+        "set alaram",
+        "alaram",
+        "please add alaram at",
+        "please add alarm at",
+        "please set alarm at",
+        "please keep alaram at",
+        "set alarm for tommorow two pm",
+        "set alarm for today",
+        "alaram",
+        "set alarm",
+        "set"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "read",
+      "patterns": [
+        "read clipboard",
+        "read text",
+        "read clipboard text"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "notepad automation",
+      "patterns": [
+        "open notepad",
+        "notepad",
+        "note in notepad",
+        "notepad",
+        "write in notepad"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "copy",
+      "patterns": [
+        "copy files",
+        "copy files",
+        "copy this files to",
+        "copy this file ",
+        "please copy this file ",
+        "select the file and copy this file "
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "move",
+      "patterns": [
+        "move the file",
+        "move this file",
+        "select the file and move",
+        "please move the file ",
+        "move files to",
+        "move files",
+        "move this file to",
+        "move this files to"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "ip",
+      "patterns": [
+        "what is my ip address",
+        "my ip",
+        "my ip address",
+        "show my ip"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "speedteest",
+      "patterns": [
+        "what is my network speed",
+        "what is network speed",
+        "how speed is my network",
+        "network speed",
+        "show my network speed"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "send email",
+        "send an email",
+        "send a email",
+        "send mail",
+        "send an mail",
+        "send a mail",
+        "send a mail to",
+        "send an mail to",
+        "send email to",
+        "send an email to",
+        "send a email to"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "shutdown",
+      "patterns": [
+        "shutdown",
+        "shutdown pc",
+        "shutdown the pc",
+        "shutdown your pc",
+        "shutdown laptop",
+        "shutdowm your system",
+        "shutdown system",
+        "shutdown the system",
+        "power off",
+        "power off the pc",
+        "power off the system",
+        "power off the pc",
+        "power off the system",
+        "power off the laptop",
+        "power off the computer"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "restart",
+      "patterns": [
+        "restart",
+        "restart the system",
+        "restart your system",
+        "restart pc",
+        "restart system",
+        "restart your pc",
+        "restart laptop"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "translate",
+      "patterns": [
+        "translate",
+        "translate this",
+        "translate this to",
+        "translate this into",
+        "translate this in",
+        "translate this in english",
+        "translate this in hindi",
+        "translate this in urdu",
+        "translate this in punjabi",
+        "translate this in gujrati",
+        "translate this in marathi",
+        "translate this in tamil",
+        "translate this in telugu",
+        "translate this in kannada",
+        "translate this in malayalam",
+        "translate this in bengali",
+        "translate this in odia",
+        "translate this in assamese",
+        "translate this in nepali",
+        "translate this in sanskrit",
+        "translate this in arabic",
+        "translate this in chinese",
+        "translate this in french",
+        "translate this in german",
+        "translate"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "dictionary",
+      "patterns": [
+        "dictionary",
+        "dictionary meaning",
+        "dictionary meaning of",
+        "dictionary meaning of this",
+        "dictionary meaning of this word",
+        "dictionary meaning of this word in english",
+        "dictionary meaning of this word in hindi",
+        "dictionary meaning of this word in urdu",
+        "dictionary meaning of this word in punjabi",
+        "dictionary meaning of this word in gujrati",
+        "dictionary meaning of this word in marathi",
+        "dictionary meaning of this word in tamil",
+        "dictionary meaning of this word in telugu",
+        "dictionary meaning of this word in kannada",
+        "dictionary meaning of this word in malayalam",
+        "dictionary meaning of this word in bengali",
+        "dictionary meaning of this word in odia",
+        "dictionary meaning"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "google",
+      "patterns": [
+        "google search",
+        "google search for",
+        "google search for this",
+        "google search for this word",
+        "google search for this word in english",
+        "google search for this word in hindi",
+        "google search for this word in urdu",
+        "google search for this word in punjabi",
+        "google search for this word in gujrati",
+        "google search for this word in marathi",
+        "google search for this word in tamil",
+        "google search for this word in telugu",
+        "google search for this word in kannada",
+        "google search for this word in malayalam",
+        "google search for this word in bengali",
+        "google search for this word in odia",
+        "google search"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "wikipedia search",
+      "patterns": [
+        "wikipedia search",
+        "wikipedia search for",
+        "wikipedia search for this",
+        "wikipedia search for this word"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where i am",
+        "where we are",
+        "where are we",
+        "where am i",
+        "show my location",
+        "my location",
+        "my current location",
+        "show my current location",
+        "show my current location on map",
+        "show my current location on google map",
+        "show my current location on google maps",
+        "show my current location on maps",
+        "show my current location on map",
+        "whats the location"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "show_password",
+      "patterns": [
+        "what is my password",
+        "what is the password"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "virtual_mouse",
+      "patterns": [
+        "turn on virtual mouse",
+        "activate virtual mouse",
+        "virtual mouse"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "add password",
+      "patterns": [
+        "add password",
+        "notedown the password",
+        "save the password",
+        "save the new password",
+        "keep this password in ur system",
+        "save this password in your system",
+        "save this password in your laptop",
+        "save these password in your pc"
+      ],
+      "responses": [
+        "offlie"
+      ]
+    },
+    {
+      "tag": "read_password",
+      "patterns": [
+        "read password",
+        "read the password",
+        "read the saved password",
+        "read the saved passwords",
+        "read the saved passwords in your system",
+        "read the saved passwords in your laptop",
+        "read the saved passwords in your pc",
+        "read the saved passwords in your system",
+        "read the saved passwords in your laptop",
+        "read the saved passwords in your pc"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "screenshot",
+      "patterns": [
+        "screenshot right now",
+        "take a screenshot",
+        "make a screenshot",
+        "take the screenshot of present page",
+        "please take a screenshot",
+        "please take a screenshot of present page"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "close app",
+      "patterns": [
+        "kill app",
+        "exit app",
+        "close app",
+        "exit this window",
+        "close this window",
+        "kill this window",
+        "come back from this window",
+        "exit from this window",
+        "exit from this app",
+        "exit from chrome ",
+        "exit from browser",
+        "close this browser",
+        "close this chrome"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "whatsapp message",
+      "patterns": [
+        "send a whatsapp message",
+        "text a message in whatsapp",
+        "send a whatsapp message to",
+        "text a whatsapp message to ",
+        "writedown a message in whatsapp",
+        "writedown the text in whatsapp"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "quiz",
+      "patterns": [
+        "play a game ",
+        "play quiz",
+        "quiz",
+        "play a quiz",
+        "lets have some fun",
+        "lets play a mind game",
+        "lets have somefun time"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "advice",
+      "patterns": [
+        "give me advice ",
+        "tell me some advices",
+        "suggest me an advice",
+        "please give a advice",
+        "give an advice ",
+        "suggest advice",
+        "give me a sharp advice"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "callto",
+      "patterns": [
+        "call to ",
+        "call",
+        "make a phone call",
+        "make a call"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "add_user",
+      "patterns": [
+        "add user",
+        "add new user",
+        "add new account",
+        "add account",
+        "add new account",
+        "add new user"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "send_message",
+      "patterns": [
+        "send message",
+        "message a friend",
+        "new message",
+        "create a message",
+        "send a message",
+        "send the message"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "voice_change",
+      "patterns": [
+        "change your voice",
+        "change your vocals",
+        "change your sound",
+        "change to male",
+        "change to female"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "remind this",
+        "remind",
+        "what are the remind",
+        "any reminders",
+        "what are my reminders",
+        "say my reminders",
+        "write a reminder",
+        "read my reminder",
+        " remind me",
+        "reminding",
+        "reminds",
+        "remind that",
+        "remind something"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "sleepjarvis",
+      "patterns": [
+        "go to sleep jarvis",
+        "go to sleep",
+        "sleep",
+        "silence",
+        "sleep mode",
+        "sleeping"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "open_documents",
+      "patterns": [
+        "open my document",
+        "open documents",
+        "read documents",
+        "doc",
+        "open up doc",
+        "open document",
+        "open doc"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "open_folder",
+      "patterns": [
+        "open my folder",
+        "my folder",
+        "folder",
+        "open up a folder",
+        "open folder",
+        "folder",
+        "open up folder",
+        "open up my folder"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "pdf_reader",
+      "patterns": [
+        "read my pdf",
+        "read pdf",
+        "activate pdf reader"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "get_trending_movies",
+      "patterns": [
+        "what are the trending movies",
+        "trending movies",
+        "top movies",
+        "great movies",
+        "movies of the day",
+        "top ten movies"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "learn",
+      "patterns": [
+        "learn a word",
+        "learn this",
+        "learn that",
+        "learn a sentence",
+        "learn the thing",
+        "learn what to say",
+        "larn sentence"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "focus_mode",
+      "patterns": [
+        "activate focus mode",
+        "focus mode",
+        "i want to study",
+        "study mode",
+        "activate study mode",
+        "study hours"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "nearby",
+      "patterns": [
+        "near by places",
+        "show me near by locations",
+        "near by",
+        "near by locations",
+        "places near by",
+        "nearby"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "iot",
+      "patterns": [
+        "turn on led",
+        "turn off led",
+        "turn on light",
+        "turn off light",
+        "turn on the device",
+        "turn off the device"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "it's an emergency",
+        "emergency protocal",
+        "emergency protocol",
+        "alert emergency",
+        "emergency situation",
+        "it is an emergency"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "advance_speak",
+      "patterns": [
+        "activate advance speak system",
+        "talk with me",
+        "chat with me",
+        "talk more",
+        "talk high",
+        "advance reply system",
+        "reply more"
+      ],
+      "responses": [
+        "online"
+      ]
+    },
+    {
+      "tag": "detection",
+      "patterns": [
+        "detection mode",
+        "activate detection mode",
+        "security mode",
+        "field security",
+        "detection system"
+      ],
+      "responses": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_dance",
+      "patterns": [
+        "make dance",
+        "do dance",
+        "make a dance",
+        "make a step",
+        "dance",
+        "lets dance"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_thinking",
+      "patterns": [
+        "think",
+        "imitate thinkinge",
+        "thinking"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_walk",
+      "patterns": [
+        "walk",
+        "walking"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_dance",
+      "patterns": [
+        "make dance",
+        "do dance",
+        "make a dance",
+        "make a step",
+        "dance",
+        "lets dance"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_pray",
+      "patterns": [
+        "pray",
+        "pray to god",
+        "how you pray",
+        "praying"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "robo_clapping",
+      "patterns": [
+        "claps",
+        "clap"
+      ],
+      "response": [
+        "offline"
+      ]
+    },
+    {
+      "tag": "finish",
+      "patterns": [
+        "what is the final word",
+        "final word jarvis",
+        "are we going to win",
+        "last word",
+        "final word"
+      ],
+      "responses": [
+        "offline"
+      ]
+    }
+  ]
+}
+

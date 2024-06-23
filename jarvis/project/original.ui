@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Jarvis</class>
+    <widget class="QMainWindow" name="Jarvis">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1257</width>
+                <height>833</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLabel" name="blackbg">
+                <property name="geometry">
+                    <rect>
+                        <x>-50</x>
+                        <y>-180</y>
+                        <width>1701</width>
+                        <height>1181</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background-color:black
+
+
+                    </string>
+                </property>
+                <property name="text">
+                    <string>TextLabel</string>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="mironman">
+                <property name="geometry">
+                    <rect>
+                        <x>270</x>
+                        <y>50</y>
+                        <width>661</width>
+                        <height>431</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/oie_oie_overlay.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="initiatingsystem">
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>-10</y>
+                        <width>381</width>
+                        <height>191</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/initial.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="datebackground">
+                <property name="geometry">
+                    <rect>
+                        <x>60</x>
+                        <y>460</y>
+                        <width>221</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background-color:white</string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/gggf.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="timebg">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>560</y>
+                        <width>231</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/gggf.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="corner2">
+                <property name="geometry">
+                    <rect>
+                        <x>1020</x>
+                        <y>40</y>
+                        <width>201</width>
+                        <height>141</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/actual.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="corner1">
+                <property name="geometry">
+                    <rect>
+                        <x>780</x>
+                        <y>40</y>
+                        <width>201</width>
+                        <height>141</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Jarvis_Gui (2).gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="startlbl">
+                <property name="geometry">
+                    <rect>
+                        <x>930</x>
+                        <y>420</y>
+                        <width>231</width>
+                        <height>81</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Start.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="quitlbl">
+                <property name="geometry">
+                    <rect>
+                        <x>900</x>
+                        <y>530</y>
+                        <width>231</width>
+                        <height>71</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Quit.png</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QTextBrowser" name="datetext">
+                <property name="geometry">
+                    <rect>
+                        <x>80</x>
+                        <y>470</y>
+                        <width>181</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background:transparent;
+                        border:1;
+                    </string>
+                </property>
+                <property name="html">
+                    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+                        &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style
+                        type=&quot;text/css&quot;&gt;
+                        p, li { white-space: pre-wrap; }
+                        &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt;
+                        font-weight:400; font-style:normal;&quot;&gt;
+                        &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+                        -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;
+                        color:#409491;&quot;&gt;DATE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QTextBrowser" name="timetext">
+                <property name="geometry">
+                    <rect>
+                        <x>130</x>
+                        <y>570</y>
+                        <width>191</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background:transparent;
+                        border:none;
+                    </string>
+                </property>
+                <property name="html">
+                    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+                        &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style
+                        type=&quot;text/css&quot;&gt;
+                        p, li { white-space: pre-wrap; }
+                        &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt;
+                        font-weight:400; font-style:normal;&quot;&gt;
+                        &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+                        -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;
+                        font-weight:600; color:#409491;&quot;&gt;TIME&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="startbtn">
+                <property name="geometry">
+                    <rect>
+                        <x>940</x>
+                        <y>440</y>
+                        <width>211</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background:transparent;
+                        border:none;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="startbtn_2">
+                <property name="geometry">
+                    <rect>
+                        <x>910</x>
+                        <y>540</y>
+                        <width>211</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background:transparent;
+                        border:none;
+                    </string>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="downeye">
+                <property name="geometry">
+                    <rect>
+                        <x>440</x>
+                        <y>450</y>
+                        <width>341</width>
+                        <height>181</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="textFormat">
+                    <enum>Qt::MarkdownText</enum>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Aqua.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="earthlbl">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>280</y>
+                        <width>281</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Earth.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="trigif">
+                <property name="geometry">
+                    <rect>
+                        <x>870</x>
+                        <y>240</y>
+                        <width>281</width>
+                        <height>171</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/program_load.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="liestening">
+                <property name="enabled">
+                    <bool>true</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>470</x>
+                        <y>460</y>
+                        <width>281</width>
+                        <height>191</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/listeningGIF.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>50</x>
+                        <y>140</y>
+                        <width>201</width>
+                        <height>101</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/Code_Template.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="yousaidbg">
+                <property name="geometry">
+                    <rect>
+                        <x>290</x>
+                        <y>670</y>
+                        <width>691</width>
+                        <height>81</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/gggf.jpg</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QTextBrowser" name="yousaidtxt">
+                <property name="geometry">
+                    <rect>
+                        <x>330</x>
+                        <y>690</y>
+                        <width>591</width>
+                        <height>51</height>
+                    </rect>
+                </property>
+                <property name="styleSheet">
+                    <string notr="true">background:transparent;
+                        border:none;
+                    </string>
+                </property>
+                <property name="html">
+                    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+                        &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style
+                        type=&quot;text/css&quot;&gt;
+                        p, li { white-space: pre-wrap; }
+                        &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt;
+                        font-weight:400; font-style:normal;&quot;&gt;
+                        &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;
+                        -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt;
+                        font-weight:600; color:#409491;&quot;&gt;QUERY&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>-20</x>
+                        <y>290</y>
+                        <width>1061</width>
+                        <height>361</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="pixmap">
+                    <pixmap>gui files/loading_1.gif</pixmap>
+                </property>
+                <property name="scaledContents">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <zorder>label_2</zorder>
+            <zorder>blackbg</zorder>
+            <zorder>initiatingsystem</zorder>
+            <zorder>datebackground</zorder>
+            <zorder>downeye</zorder>
+            <zorder>timebg</zorder>
+            <zorder>timetext</zorder>
+            <zorder>datetext</zorder>
+            <zorder>startlbl</zorder>
+            <zorder>quitlbl</zorder>
+            <zorder>earthlbl</zorder>
+            <zorder>trigif</zorder>
+            <zorder>liestening</zorder>
+            <zorder>mironman</zorder>
+            <zorder>startbtn</zorder>
+            <zorder>startbtn_2</zorder>
+            <zorder>corner1</zorder>
+            <zorder>label</zorder>
+            <zorder>yousaidbg</zorder>
+            <zorder>yousaidtxt</zorder>
+            <zorder>corner2</zorder>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

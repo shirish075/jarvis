@@ -72,6 +72,8 @@ Install dependencies: pip install -r requirements.txt (add missing packages if a
 
 Run the application: python jarvis.py
 
+dont forget to add your api keys in functions.py file
+
 
 
 🤝 Contributing

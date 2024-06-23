@@ -99,9 +99,9 @@ The Python community for their open-source libraries and support.
 
 Contributors
 
-Narendravardhan Vadnala
+Narendra Vardhan Vadnala
 
-Sriramteja Arige
+SriRamTeja Arige
 
 
 
